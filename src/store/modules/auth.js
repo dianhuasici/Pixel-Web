@@ -42,6 +42,7 @@ const actions = {
             code,
             response => {
                 commit(LOGIN, response.data)
+				console.log(response.data)
             },
             err => {
                 console.log(err);

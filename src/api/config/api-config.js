@@ -1,13 +1,12 @@
 const key_config = {
-    app_key: '3436445128',
-    app_secret: '6a1d41d969da490d9a37d4457184ea0b',
-    redirect_uri: 'http://192.168.1.104:8089/splash'
+    app_key: '3180588924',
+    app_secret: '127bf101622f7408add95c9fc674f178',
+    redirect_uri: 'http://127.0.0.1:8089/splash'
 }
 
 const host_config = {
-    local: 'http://192.168.1.104:8089/',
-    host: 'https://pixel-api.herokuapp.com/',
-    oauth: 'https://open.weibo.cn/oauth2/authorize',
+    host: 'http://127.0.0.1:3000/',
+    oauth: 'https://api.weibo.com/oauth2/authorize',
 }
 
 const api_router_config = {
